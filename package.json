@@ -1,0 +1,19 @@
+{
+  "name": "js-and-html",
+  "version": "1.0.0",
+  "description": "my first node programm",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8081 -o",
+    "test": "mocha",
+    "test:watch": "mocha --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  },
+  "dependencies": {}
+}
